@@ -10,6 +10,8 @@ Download here
 
 **(upload in progress)**
 
+ComfyUI-Starter-Workflows - starter-people workflow - https://github.com/lquesada/ComfyUI-Starter-Workflows 
+
 In order to get this workflow to work:
 1. Install the missing ComfyUI custom nodes via ComfyUI Manager.
 2. Download the model checkpoint to models/checkpoints:
@@ -26,7 +28,7 @@ You should then be able to run it.
 You may tweak:
 - The model, vae, prompts, loras, or upscale model (cyan boxes)
 - The sampler parameters or seed (red boxes).
-- The output configuration (purple boxes), for example if you want to export x4 or x16 upscaled pictures as well.
+- The output configuration (purple boxes), for example if you want to save x4-upscaled pictures as well.
 
 Increasing resolution above 512x768 may cause artifacts such as duplicated heads.
 
