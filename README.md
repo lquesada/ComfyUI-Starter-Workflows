@@ -6,7 +6,7 @@ A collection of simple but powerful ComfyUI workflows for Stable Diffusion with 
 ## starter-person.json
 A workflow to generate pictures of people and optionally upscale them, with the default settings adjusted to obtain good results fast.
 
-Download this workflow here: [starter-person.json](https://github.com/lquesada/ComfyUI-Starter-Workflows/blob/main/starter-person.json)
+Download the workflow to pysssss-workflows/: [starter-person.json](https://github.com/lquesada/ComfyUI-Starter-Workflows/blob/main/starter-person.json)
 
 ![Example](starter-person-screenshot.jpg)
 
