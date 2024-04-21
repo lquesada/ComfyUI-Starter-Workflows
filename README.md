@@ -40,29 +40,12 @@ Drag and drop this screenshot into ComfyUI (or download [starter-upscale-resampl
 
 ### Examples
 Input:
+
 ![Example input](starter-upscale-resample_examples/input1.png)
 
 Output:
 
 ![Example output](starter-upscale-resample_examples/output1.png)
-
-### Examples
-
-Input (positive prompt): "resume picture, wearing a suit, african woman"
-
-Output:
-
-![Example](starter-person_examples/008_resume%20picture,%20wearing%20a%20suit,%20african%20woman.png)
-
-Input (positive prompt): "portrait, wearing white t-shirt, icelandic man"
-
-Output:
-
-![Example](starter-person_examples/037_portrait,%20wearing%20white%20t-shirt,%20icelandic%20man.png)
-
-See a full list of examples [here](starter-person_examples/examples.jpg). All these examples were generated with seed 1001, the default settings in the workflow, and the prompt being the concatenation of y-label and x-label, e.g. "portrait, wearing white t-shirt, african man".
-
-All the separate pictures and the XY Plot workflow can be downloaded from [here](https://github.com/lquesada/ComfyUI-Starter-Workflows/tree/main/starter-person_examples).
 
 # License
 Creative Commons License Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)
