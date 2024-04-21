@@ -6,9 +6,9 @@ A collection of simple but powerful ComfyUI workflows for Stable Diffusion with 
 ## starter-person.json
 A workflow to generate pictures of people and optionally upscale them, with the default settings adjusted to obtain good results fast.
 
-Download the workflow to pysssss-workflows/: [starter-person.json](https://github.com/lquesada/ComfyUI-Starter-Workflows/blob/main/starter-person.json)
+Instructions can be found within the workflow.
 
-Or drag and drop this screenshot into ComfyUI:
+Drag and drop this screenshot into ComfyUI (or download [starter-person.json](https://github.com/lquesada/ComfyUI-Starter-Workflows/blob/main/starter-person.json) to pysssss-workflows/):
 
 ![Workflow](starter-person-workflow.png)
 
@@ -29,28 +29,6 @@ Output:
 See a full list of examples [here](starter-person_outputs/examples.jpg). All these examples were generated with seed 1001, the default settings in the workflow, and the prompt being the concatenation of y-label and x-label, e.g. "portrait, wearing white t-shirt, african man".
 
 All the separate pictures and the XY Plot workflow can be downloaded from [here](https://github.com/lquesada/ComfyUI-Starter-Workflows/tree/main/starter-person_outputs).
-
-### Instructions
-
-In order to get this workflow to work:
-1. Install the missing ComfyUI custom nodes via ComfyUI Manager.
-2. Download the model checkpoint to models/checkpoints:
-  * https://civitai.com/models/132632?modelVersionId=429454
-3. Download the vae to models/vae:
-  * https://huggingface.co/stabilityai/sd-vae-ft-mse-original/blob/main/vae-ft-mse-840000-ema-pruned.ckpt
-4. Download the lora to models/loras:
-  * https://huggingface.co/OedoSoldier/detail-tweaker-lora/blob/main/add_detail.safetensors
-5. Download the upscale model to models/upscale_models:
-  * https://huggingface.co/databuzzword/esrgan/blob/main/RRDB_ESRGAN_x4.pth
-
-You should then be able to run it.
-
-You may tweak:
-- The model, vae, prompts, loras, or upscale model (cyan boxes)
-- The sampler parameters or seed (red boxes).
-- The output configuration (purple boxes), for example if you want to save x4-upscaled pictures as well.
-
-Increasing resolution above 512x768 may cause artifacts such as duplicated heads.
 
 # License
 Creative Commons License Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)
