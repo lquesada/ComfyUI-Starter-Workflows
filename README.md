@@ -4,13 +4,17 @@ Copyright (c) 2024, Luis Quesada Torres - https://github.com/lquesada | www.luis
 A collection of simple but powerful ComfyUI workflows for Stable Diffusion with curated default settings.
 
 ## starter-person.json
-A workflow to generate pictures of people, with the default settings adjusted to obtain good results fast.
+A workflow to generate pictures of people and optionally upscale them, with the default settings adjusted to obtain good results fast.
 
-Download here
+Download this workflow here: [starter-person.json](https://github.com/lquesada/ComfyUI-Starter-Workflows/blob/main/starter-person.json)
 
-**(upload in progress)**
+![Example](starter-person-screenshot.png)
 
-ComfyUI-Starter-Workflows - starter-people workflow - https://github.com/lquesada/ComfyUI-Starter-Workflows 
+### Examples
+
+![Example](starter-person-summary.png)
+
+### Instructions
 
 In order to get this workflow to work:
 1. Install the missing ComfyUI custom nodes via ComfyUI Manager.
