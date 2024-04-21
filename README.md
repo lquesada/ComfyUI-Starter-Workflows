@@ -8,7 +8,7 @@ A workflow to generate pictures of people and optionally upscale them, with the 
 
 Download the workflow to pysssss-workflows/: [starter-person.json](https://github.com/lquesada/ComfyUI-Starter-Workflows/blob/main/starter-person.json)
 
-![Example](starter-person-screenshot.jpg)
+![Example](starter-person-workflow.png)
 
 ### Examples
 
