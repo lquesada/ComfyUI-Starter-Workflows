@@ -1,9 +1,9 @@
-# ComfyUI-Starter-Workflows
+ComfyUI-Starter-Workflows
 Copyright (c) 2024, Luis Quesada Torres - https://github.com/lquesada | www.luisquesada.com
 
 A collection of simple but powerful ComfyUI workflows for Stable Diffusion with curated default settings.
 
-## starter-person.json
+# starter-person.json
 A workflow to generate pictures of people and optionally upscale them, with the default settings adjusted to obtain good results fast.
 
 Instructions can be found within the workflow.
@@ -12,7 +12,7 @@ Drag and drop this screenshot into ComfyUI (or download [starter-person.json](ht
 
 ![Workflow](starter-person_workflow.png)
 
-### Examples
+## Examples
 Input (positive prompt): "resume picture, wearing a suit, african woman"
 
 Output:
@@ -29,7 +29,7 @@ See a full list of examples [here](starter-person_examples/examples.jpg). All th
 
 All the separate pictures and the XY Plot workflow can be downloaded from [here](https://github.com/lquesada/ComfyUI-Starter-Workflows/tree/main/starter-person_examples).
 
-## starter-upscale-resample.json
+# starter-upscale-resample.json
 A workflow to upscale a picture by applying resampling driven by the original picture, both via tags and an IPAdapter or Image Prompt Adapter, plus additional optional positive and negative prompts. It won't be too precise for faces, as it will make up too many details.
 
 Instructions can be found within the workflow.
@@ -38,7 +38,7 @@ Drag and drop this screenshot into ComfyUI (or download [starter-upscale-resampl
 
 ![Workflow](starter-upscale-resample_workflow.png)
 
-### Examples
+## Examples
 Input:
 
 ![Example input](starter-upscale-resample_examples/input1.png)
