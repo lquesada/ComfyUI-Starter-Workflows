@@ -8,11 +8,11 @@ A workflow to generate pictures of people and optionally upscale them, with the 
 
 Download this workflow here: [starter-person.json](https://github.com/lquesada/ComfyUI-Starter-Workflows/blob/main/starter-person.json)
 
-![Example](starter-person-screenshot.png)
+![Example](starter-person-screenshot.jpg)
 
 ### Examples
 
-![Example](starter-person-summary.png)
+![Example](starter-person-summary.jpg)
 
 ### Instructions
 
