@@ -12,6 +12,8 @@ Download this workflow here: [starter-person.json](https://github.com/lquesada/C
 
 ### Examples
 
+Note that higher-resolution separate pictures and the XY Plot workflow can be accessed from [here](https://github.com/lquesada/ComfyUI-Starter-Workflows/tree/main/starter-person_outputs).
+
 ![Example](starter-person-summary.jpg)
 
 ### Instructions
