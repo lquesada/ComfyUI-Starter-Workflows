@@ -3,8 +3,8 @@ Copyright (c) 2024, Luis Quesada Torres - https://github.com/lquesada | www.luis
 
 A collection of simple but powerful ComfyUI workflows for Stable Diffusion with curated default settings.
 
-## starter-people.json
-A workflow to generate pictures of people, settings adjusted to obtain good results fast.
+## starter-person.json
+A workflow to generate pictures of people, with the default settings adjusted to obtain good results fast.
 
 Download here
 
