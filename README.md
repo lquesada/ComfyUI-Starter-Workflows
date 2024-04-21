@@ -12,7 +12,9 @@ Download the workflow to pysssss-workflows/: [starter-person.json](https://githu
 
 ### Examples
 
-Note that higher-resolution separate pictures and the XY Plot workflow can be accessed from [here](https://github.com/lquesada/ComfyUI-Starter-Workflows/tree/main/starter-person_outputs).
+All these examples were generated with seed 1001, the default settings in the workflow, and the prompt being the concatenation of y-label and x-label, e.g. "portrait, wearing white t-shirt, african man".
+
+Note that higher-resolution separate pictures and the XY Plot workflow can be downloaded from [here](https://github.com/lquesada/ComfyUI-Starter-Workflows/tree/main/starter-person_outputs).
 
 ![Example](starter-person-summary.jpg)
 
