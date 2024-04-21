@@ -14,11 +14,13 @@ Or drag and drop this screenshot into ComfyUI:
 
 ### Examples
 
-All these examples were generated with seed 1001, the default settings in the workflow, and the prompt being the concatenation of y-label and x-label, e.g. "portrait, wearing white t-shirt, african man".
+![Example](starter-person_outputs/008_resume picture, wearing a suit, african woman)
 
-Note that higher-resolution separate pictures and the XY Plot workflow can be downloaded from [here](https://github.com/lquesada/ComfyUI-Starter-Workflows/tree/main/starter-person_outputs).
+![Example](starter-person_outputs/038_resume picture, wearing a suit, icelandic man.png)
 
-![Example](starter-person-summary.jpg)
+See a full list of examples [here](starter-person_outputs/examples.jpg). All these examples were generated with seed 1001, the default settings in the workflow, and the prompt being the concatenation of y-label and x-label, e.g. "portrait, wearing white t-shirt, african man".
+
+All the separate pictures and the XY Plot workflow can be downloaded from [here](https://github.com/lquesada/ComfyUI-Starter-Workflows/tree/main/starter-person_outputs).
 
 ### Instructions
 
