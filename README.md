@@ -10,13 +10,13 @@ Download the workflow to pysssss-workflows/: [starter-person.json](https://githu
 
 Or drag and drop this screenshot into ComfyUI:
 
-![Example](starter-person-workflow.png)
+![Workflow](starter-person-workflow.png)
 
 ### Examples
 
-![Example](starter-person_outputs/008_resume picture, wearing a suit, african woman)
+![Example](starter-person_outputs/008_resume%20picture,%20wearing%20a%20suit,%20african%20woman.png)
 
-![Example](starter-person_outputs/038_resume picture, wearing a suit, icelandic man.png)
+![Example](starter-person_outputs/037_portrait,%20wearing%20white%20t-shirt,%20icelandic%20man.png)
 
 See a full list of examples [here](starter-person_outputs/examples.jpg). All these examples were generated with seed 1001, the default settings in the workflow, and the prompt being the concatenation of y-label and x-label, e.g. "portrait, wearing white t-shirt, african man".
 
