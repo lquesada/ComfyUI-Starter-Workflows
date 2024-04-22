@@ -3,6 +3,8 @@ Copyright (c) 2024, Luis Quesada Torres - https://github.com/lquesada | www.luis
 
 A collection of simple but powerful ComfyUI workflows for Stable Diffusion with curated default settings.
 
+Check ComfyUI here: https://github.com/comfyanonymous/ComfyUI
+
 # starter-person.json
 A workflow to generate pictures of people and optionally upscale them, with the default settings adjusted to obtain good results fast.
 
