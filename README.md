@@ -45,11 +45,11 @@ Drag and drop this screenshot into ComfyUI (or download [starter-creative-upscal
 ## Examples
 Input:
 
-![Example input](starter-upscale-resample_examples/input1.png)
+![Example input](starter-creative-upscale_examples/input1.png)
 
 Output:
 
-![Example output](starter-upscale-resample_examples/output1.png)
+![Example output](starter-creative-upscale_examples/output1.png)
 
 # License
 Creative Commons License Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)
