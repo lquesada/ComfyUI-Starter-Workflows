@@ -6,7 +6,7 @@ A collection of simple but powerful ComfyUI workflows for Stable Diffusion with 
 Check ComfyUI here: https://github.com/comfyanonymous/ComfyUI
 
 # starter-person.json
-A workflow to generate pictures of people and optionally upscale them, with the default settings adjusted to obtain good results fast.
+A workflow to generate pictures of people and optionally upscale them x4, with the default settings adjusted to obtain good results fast.
 
 Instructions can be found within the workflow.
 
@@ -19,17 +19,17 @@ Input (positive prompt): "resume picture, wearing a suit, african woman"
 
 Output:
 
-![Example](starter-person_examples/008_resume%20picture,%20wearing%20a%20suit,%20african%20woman.png)
+![Example](starter-person_examples/output1.webp)
 
 Input (positive prompt): "portrait, wearing white t-shirt, icelandic man"
 
 Output:
 
-![Example](starter-person_examples/037_portrait,%20wearing%20white%20t-shirt,%20icelandic%20man.png)
+![Example](starter-person_examples/output2.webp)
 
-See a full list of examples [here](starter-person_examples/examples.jpg). All these examples were generated with seed 1001, the default settings in the workflow, and the prompt being the concatenation of y-label and x-label, e.g. "portrait, wearing white t-shirt, african man".
+See a full list of examples [here](starter-person_examples/examples.webp). All these examples were generated with seed 1001, the default settings in the workflow, and the prompt being the concatenation of y-label and x-label, e.g. "portrait, wearing white t-shirt, african man".
 
-All the separate pictures and the XY Plot workflow can be downloaded from [here](https://github.com/lquesada/ComfyUI-Starter-Workflows/tree/main/starter-person_examples).
+All the separate high-quality png pictures and the XY Plot workflow can be downloaded from [here](https://github.com/lquesada/ComfyUI-Starter-Workflows/tree/main/starter-person_examples).
 
 # starter-creative-upscale.json
 A workflow to upscale a picture by applying resampling driven by the original picture, both via tags and an IPAdapter or Image Prompt Adapter, plus additional optional positive and negative prompts.
@@ -49,7 +49,7 @@ Input:
 
 Output:
 
-![Example output](starter-creative-upscale_examples/output1.png)
+![Example output](starter-creative-upscale_examples/output1.webp)
 
 # License
 Creative Commons License Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)
