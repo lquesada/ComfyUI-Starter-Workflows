@@ -31,14 +31,16 @@ See a full list of examples [here](starter-person_examples/examples.jpg). All th
 
 All the separate pictures and the XY Plot workflow can be downloaded from [here](https://github.com/lquesada/ComfyUI-Starter-Workflows/tree/main/starter-person_examples).
 
-# starter-upscale-resample.json
-A workflow to upscale a picture by applying resampling driven by the original picture, both via tags and an IPAdapter or Image Prompt Adapter, plus additional optional positive and negative prompts. It won't be too precise for faces, as it will make up too many details.
+# starter-creative-upscale.json
+A workflow to upscale a picture by applying resampling driven by the original picture, both via tags and an IPAdapter or Image Prompt Adapter, plus additional optional positive and negative prompts.
+
+The resulting picture will be a creative reinterpretation of the original picture. It won't be too precise for faces, as it will make up too many details.
 
 Instructions can be found within the workflow.
 
-Drag and drop this screenshot into ComfyUI (or download [starter-upscale-resample.json](https://github.com/lquesada/ComfyUI-Starter-Workflows/blob/main/starter-upscale-resample.json) to pysssss-workflows/):
+Drag and drop this screenshot into ComfyUI (or download [starter-creative-upscale.json](https://github.com/lquesada/ComfyUI-Starter-Workflows/blob/main/starter-creative-upscale.json) to pysssss-workflows/):
 
-![Workflow](starter-upscale-resample_workflow.png)
+![Workflow](starter-creative-upscale_workflow.png)
 
 ## Examples
 Input:
