@@ -51,6 +51,26 @@ Output:
 
 ![Example output](starter-creative-upscale_examples/output1.webp)
 
+# starter-cartoon-to-realistic.json
+A workflow to generate a cartoonish picture using a model and then upscale it and turn it into a realistic one by applying a different checkpoint and optionally different prompts. Cartoonish models are often more creative and produce more varied outputs than realistic ones, therefore this workflow can be used as a source of ideas.
+
+Instructions can be found within the workflow.
+
+Drag and drop this screenshot into ComfyUI (or download [starter-cartoon-to-realistic.json](https://github.com/lquesada/ComfyUI-Starter-Workflows/blob/main/starter-cartoon-to-realistic.json) to pysssss-workflows/):
+
+![Workflow](starter-cartoon-to-realistic_workflow.png)
+
+## Examples
+Input (positive prompt): "portrait of a man in a mech armor, with short dark hair"
+
+Output step 1 (cartoon-ish):
+
+![Example](starter-cartoon-to-realistic_examples/output1_step1.webp)
+
+Output step 2 (realistic):
+
+![Example](starter-cartoon-to-realistic_examples/output1_step2.webp)
+
 # License
 Creative Commons License Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)
 
