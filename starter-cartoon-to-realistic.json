@@ -559,7 +559,7 @@
         "1": 402
       },
       "flags": {},
-      "order": 11,
+      "order": 12,
       "mode": 0,
       "inputs": [
         {
@@ -967,7 +967,7 @@
         "1": 142
       },
       "flags": {},
-      "order": 7,
+      "order": 5,
       "mode": 0,
       "outputs": [
         {
@@ -1305,30 +1305,6 @@
       "shape": 1
     },
     {
-      "id": 59,
-      "type": "Note",
-      "pos": [
-        30,
-        60
-      ],
-      "size": [
-        1090,
-        260
-      ],
-      "flags": {},
-      "order": 5,
-      "mode": 0,
-      "title": "Instructions",
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "https://github.com/lquesada/ComfyUI-Starter-Workflows/ - ComfyUI-Starter-Workflows - starter-cartoon-to-realistic.json\n\nIn order to get this workflow to work:\n1. Install the missing ComfyUI custom nodes via ComfyUI Manager.\n2. Download the model checkpoint to models/checkpoints:\n  * https://civitai.com/models/132632?modelVersionId=429454\n  * https://civitai.com/models/7371?modelVersionId=425083\n3. Download the vae to models/vae:\n  * https://huggingface.co/stabilityai/sd-vae-ft-mse-original/blob/main/vae-ft-mse-840000-ema-pruned.ckpt\n4. Download the lora to models/loras:\n  * https://huggingface.co/OedoSoldier/detail-tweaker-lora/blob/main/add_detail.safetensors\n5. Run it.\n\nYou may tweak:\n- The models, vaes, or loras (cyan boxes)\n- The prompts for model 1 or model 2 (green and red boxes).\n- The upscale between model 1 and model 2 (pink box)\n- The sampler parameters or seed (brown boxes).\n- The output configuration (purple boxes).\n\nIncreasing model 1 image size above 512x768 may cause artifacts such as double heads."
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
       "id": 2,
       "type": "Efficient Loader",
       "pos": [
@@ -1340,7 +1316,7 @@
         "1": 402
       },
       "flags": {},
-      "order": 12,
+      "order": 11,
       "mode": 0,
       "inputs": [
         {
@@ -1499,7 +1475,7 @@
         "1": 120
       },
       "flags": {},
-      "order": 9,
+      "order": 7,
       "mode": 0,
       "outputs": [
         {
@@ -1556,6 +1532,30 @@
       ],
       "color": "#232",
       "bgcolor": "#353"
+    },
+    {
+      "id": 59,
+      "type": "Note",
+      "pos": [
+        30,
+        60
+      ],
+      "size": [
+        1640,
+        260
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "title": "Instructions",
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "https://github.com/lquesada/ComfyUI-Starter-Workflows/ - ComfyUI-Starter-Workflows - starter-cartoon-to-realistic.json\n\nIn order to get this workflow to work:\n1. Install the missing ComfyUI custom nodes via ComfyUI Manager.\n2. Download the model checkpoint to models/checkpoints:\n  * https://civitai.com/models/132632?modelVersionId=429454\n  * https://civitai.com/models/7371?modelVersionId=425083\n3. Download the vae to models/vae:\n  * https://huggingface.co/stabilityai/sd-vae-ft-mse-original/blob/main/vae-ft-mse-840000-ema-pruned.ckpt\n4. Download the lora to models/loras:\n  * https://huggingface.co/OedoSoldier/detail-tweaker-lora/blob/main/add_detail.safetensors\n5. Run it.\n\nYou may tweak:\n- The models, vaes, or loras (cyan boxes).\n- The prompts for model 1 or model 2 (green and red boxes).\n- The upscale between model 1 and model 2 (pink box).\n- The sampler parameters or seed (brown boxes). Model 2 denoise below 0.3 means will be mostly cartoonish, between 0.3 and 0.65 is realistic, above 0.65 will mostly disregard the original picture.\n- The output configuration (purple boxes).\n\nIncreasing model 1 image size above 512x768 may cause artifacts such as double heads."
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
     }
   ],
   "links": [
