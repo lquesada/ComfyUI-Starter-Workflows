@@ -10,7 +10,7 @@ A workflow to generate pictures of people and optionally upscale them x4, with t
 
 Instructions can be found within the workflow.
 
-Drag and drop this screenshot into ComfyUI (or download [starter-person.json](https://github.com/lquesada/ComfyUI-Starter-Workflows/blob/main/starter-person.json) to pysssss-workflows/):
+Drag and drop this screenshot into ComfyUI (or download [starter-person.json](starter-person.json) to pysssss-workflows/):
 
 ![Workflow](starter-person_workflow.png)
 
@@ -29,7 +29,7 @@ Output:
 
 See a full list of examples [here](starter-person_examples/examples.webp). All these examples were generated with seed 1001, the default settings in the workflow, and the prompt being the concatenation of y-label and x-label, e.g. "portrait, wearing white t-shirt, african man".
 
-All the separate high-quality png pictures and the XY Plot workflow can be downloaded from [here](https://github.com/lquesada/ComfyUI-Starter-Workflows/tree/main/starter-person_examples).
+All the separate high-quality png pictures and the XY Plot workflow can be downloaded from [here](starter-person_examples).
 
 # starter-creative-upscale.json
 A workflow to upscale a picture by applying resampling driven by the original picture, both via tags and an IPAdapter or Image Prompt Adapter, plus additional optional positive and negative prompts.
@@ -38,7 +38,7 @@ The resulting picture will be a creative reinterpretation of the original pictur
 
 Instructions can be found within the workflow.
 
-Drag and drop this screenshot into ComfyUI (or download [starter-creative-upscale.json](https://github.com/lquesada/ComfyUI-Starter-Workflows/blob/main/starter-creative-upscale.json) to pysssss-workflows/):
+Drag and drop this screenshot into ComfyUI (or download [starter-creative-upscale.json](starter-creative-upscale.json) to pysssss-workflows/):
 
 ![Workflow](starter-creative-upscale_workflow.png)
 
@@ -56,7 +56,7 @@ A workflow to generate a cartoonish picture using a model and then upscale it an
 
 Instructions can be found within the workflow.
 
-Drag and drop this screenshot into ComfyUI (or download [starter-cartoon-to-realistic.json](https://github.com/lquesada/ComfyUI-Starter-Workflows/blob/main/starter-cartoon-to-realistic.json) to pysssss-workflows/):
+Drag and drop this screenshot into ComfyUI (or download [starter-cartoon-to-realistic.json](starter-cartoon-to-realistic.json) to pysssss-workflows/):
 
 ![Workflow](starter-cartoon-to-realistic_workflow.png)
 
